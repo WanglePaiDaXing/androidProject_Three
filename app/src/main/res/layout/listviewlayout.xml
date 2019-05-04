@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/LV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@color/colorAccent">
+        <!--当点击到某个item时该item会改变颜色，对应activity里的点击事件。
+        该颜色对应res/values/colors.xml中对应的颜色定义。-->
+    </ListView>
+</RelativeLayout>
